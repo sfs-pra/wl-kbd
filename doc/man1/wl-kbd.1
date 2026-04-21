@@ -1,0 +1,49 @@
+.TH WL-KBD 1 "April 2026" "wl-kbd 0.1"
+.SH NAME
+wl-kbd \- Keyboard layout indicator for Wayland sessions
+.SH SYNOPSIS
+.B wl-kbd
+.RI [ -f ]
+.RI [ -l ]
+.SH DESCRIPTION
+wl-kbd is a system tray indicator that shows the current keyboard layout.
+It supports flag mode and two-letter mode with light/dark letter themes.
+
+The indicator reads keyboard layout changes through Wayland and xkbcommon.
+.SH OPTIONS
+.TP
+.B -f
+Start in flag mode.
+.TP
+.B -l
+Start in letters mode.
+.SH CONFIGURATION
+Configuration is stored in
+.IR ~/.config/wl-kbd/indicator.ini .
+
+Main keys:
+.RS
+.nf
+[Indicator]
+tray_style=FLAG|LETTERS
+letter_theme=light|dark
+letter_icon_size=24
+.fi
+.RE
+
+In labwc, switch shortcut hint can be read from:
+.IR ~/.config/labwc/environment
+via
+.BR XKB_DEFAULT_OPTIONS .
+.SH FILES
+.I ~/.config/wl-kbd/indicator.ini
+.RS
+User preferences for the indicator.
+.RE
+.I ~/.config/labwc/environment
+.RS
+labwc environment variables, including XKB_DEFAULT_OPTIONS.
+.RE
+.SH SEE ALSO
+.BR labwc-kbd (1),
+.BR labwc (1)

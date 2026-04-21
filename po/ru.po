@@ -1,0 +1,43 @@
+# Russian translation for wl-kbd
+# Copyright (C) 2026 wl-kbd contributors
+# This file is distributed under the same license as the wl-kbd package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wl-kbd 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-17 00:00+0000\n"
+"PO-Revision-Date: 2026-04-17 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Letter icons"
+msgstr "Буквенные значки"
+
+msgid "Layouts: %s\nSwitch shortcut: %s"
+msgstr "Раскладки: %s\nКомбинация переключения: %s"
+
+msgid "unknown"
+msgstr "unknown"
+
+msgid "Flag icons"
+msgstr "Флаги"
+
+msgid "Dark icon"
+msgstr "Тёмный значок"
+
+msgid "Light icon"
+msgstr "Светлый значок"
+
+msgid "Keyboard Settings"
+msgstr "Настройки клавиатуры"
+
+msgid "Quit"
+msgstr "Выход"
+
+msgid "Keyboard layout indicator"
+msgstr "Индикатор раскладки"

@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Name=Wayland Keyboard Indicator
+Name[ru]=Индикатор раскладки клавиатуры
+Name[de]=Wayland Tastaturanzeige
+Name[fr]=Indicateur de disposition clavier Wayland
+Name[es]=Indicador de teclado de Wayland
+Name[zh]=Wayland 键盘布局指示器
+Comment=Keyboard layout tray indicator for Wayland
+Comment[ru]=Индикатор раскладки клавиатуры в трее для Wayland
+Comment[de]=Tastaturlayout-Anzeige im Tray für Wayland
+Comment[fr]=Indicateur de disposition clavier dans la zone de notification pour Wayland
+Comment[es]=Indicador de distribución de teclado en bandeja para Wayland
+Comment[zh]=Wayland 托盘键盘布局指示器
+Exec=wl-kbd
+Terminal=false
+Categories=Utility;Settings;
+Icon=input-keyboard
+X-GNOME-Autostart-enabled=true
