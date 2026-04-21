@@ -113,6 +113,6 @@ DESTDIR=/tmp/pkg meson install -C build
 
 ## Related projects
 
-- `wl-kbd-config` — GUI configuration tool for layouts and switching
-- `wl-kbd-assets` — shared flag icons and keyboard layout catalog
-- `libsni-exporter` — SNI/dbusmenu export library used by the tray indicator
+- [`wl-kbd-config`](https://github.com/sfs-pra/wl-kbd-config) — GUI configuration tool for layouts and switching
+- [`wl-kbd-assets`](https://github.com/sfs-pra/wl-kbd-assets) — shared flag icons and keyboard layout catalog
+- [`libsni-exporter`](https://github.com/sfs-pra/libsni-exporter) — SNI/dbusmenu export library used by the tray indicator
